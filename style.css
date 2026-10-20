@@ -210,3 +210,17 @@ footer{background:var(--navy);color:#D6E4F2;padding:2.25rem 0}
 footer .wrap{display:flex;flex-wrap:wrap;gap:1rem 2.5rem;align-items:center;font-size:.88rem}
 footer a{color:#fff}
 footer img{height:40px;width:auto}
+
+/* Resources: related publications and communication materials */
+.small-intro{font-size:1.05rem;color:var(--muted);margin-bottom:1.2rem}
+.pubs h3{font-size:1.05rem;line-height:1.35;margin:.2rem 0 .35rem}
+.pubs h3 a{color:var(--ink);text-decoration-color:var(--hex)}
+.pubs h3 a:hover{color:var(--hex)}
+.oa{color:#1E7A3C;font-weight:600}
+.materials{list-style:none;margin:1.5rem 0 0;padding:0;display:grid;gap:2rem;max-width:52rem}
+.materials li{display:grid;grid-template-columns:11rem 1fr;gap:1.75rem;align-items:start}
+.material-thumb{display:block;border:1px solid var(--line);background:#fff;box-shadow:0 10px 24px -14px rgba(4,44,83,.45)}
+.material-thumb img{display:block;width:100%;height:auto}
+.material-thumb:hover{border-color:var(--hex)}
+.materials h3{margin-top:.2rem}
+@media (max-width:560px){.materials li{grid-template-columns:8rem 1fr;gap:1rem}}
