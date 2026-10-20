@@ -49,18 +49,28 @@
 </div>
 <section>
   <div class="wrap">
-    <!-- To add a news item, copy this block inside the <ul class="list"> below, then delete the "empty" box.
-    <li>
-      <time datetime="2026-10-15">15 October 2026</time>
-      <h3>Title of the news item</h3>
-      <p>One or two sentences. Link to the LinkedIn post or event page if there is one.</p>
-    </li>
-    -->
-    <ul class="list"></ul>
-    <div class="empty">
-      <p>Updates appear first on our LinkedIn page and will be collected here.</p>
-      <p><a href="https://www.linkedin.com/company/stitching-meranet/" rel="noopener">See the latest updates on LinkedIn</a></p>
+    <!-- To add a news item, copy one <article class="news-item"> block below and place it at the top (newest first).
+         Put the photo in assets/news/ (JPG, about 1600 px wide). Without a photo, delete the <figure> block. -->
+    <div class="news-list">
+      <article class="news-item" id="kick-off">
+        <figure class="news-photo">
+          <img src="assets/news/2026-06-kickoff.jpg" alt="STITCHING partners at the kick-off meeting in Louvain-la-Neuve, in front of a screen showing the partners joining online" width="1600" height="815" loading="lazy">
+        </figure>
+        <div class="news-body">
+          <time datetime="2026-06-09">9 June 2026</time>
+          <h2>The STITCHING project is officially underway</h2>
+          <p>The consortium gathered for the kick-off meeting in Louvain-la-Neuve, Belgium, hosted by UCLouvain, with partners joining both in person and online. The meeting marks the start of three years of collaborative research on the self-healing ALMAZIUM® aluminium alloy for wire-based additive manufacturing and welding.</p>
+          <p>The meeting brought together the nine partners from Belgium, France and Czechia:</p>
+          <dl class="news-partners">
+            <dt>Belgium</dt><dd>UCLouvain, AnyShape, Euro Heat Pipes (EHP), Belgian Welding Institute (BWI)</dd>
+            <dt>France</dt><dd>ONERA, Institut Maupertuis, Mines Saint-Étienne</dd>
+            <dt>Czechia</dt><dd>CEITEC, CactuX</dd>
+          </dl>
+          <p><a class="more" href="https://www.linkedin.com/posts/stitching-meranet_yesterday-june-9th-we-held-the-kickoff-activity-7477980074789736448-0I2K" rel="noopener">Read the post on LinkedIn</a></p>
+        </div>
+      </article>
     </div>
+    <p class="news-follow">More updates on our <a href="https://www.linkedin.com/company/stitching-meranet/" rel="noopener">LinkedIn page</a>.</p>
   </div>
 </section>
 </main>
